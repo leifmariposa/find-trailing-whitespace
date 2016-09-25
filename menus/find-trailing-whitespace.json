@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle find-trailing-whitespace",
+        "command": "find-trailing-whitespace:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "find-trailing-whitespace",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "find-trailing-whitespace:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
